@@ -108,7 +108,6 @@ pyparsing
 pyrsistent 
 PySocks 
 python-dateutil 
-python-lsp-black 
 pywin32==302
 pywin32-ctypes 
 pywinpty 
