@@ -1,1 +1,1 @@
-web: gunicorn app:map
+web: gunicorn --bind 0.0.0.0:$PORT main-api:map
