@@ -12,8 +12,9 @@ import pandas as pd
      
 df = pd.read_csv("D:/Plotly learning/Dash-by-Plotly-master/Dash-by-Plotly-master/Good_to_Know/Dash2.0/social_capital.csv")
 
-server = app.server
+
 app = Dash(__name__, external_stylesheets=[dbc.themes.UNITED])
+server = app.server
 mytitle = dcc.Markdown(children='')
 mygraph = dcc.Graph(figure={})
 dropdown = dcc.Dropdown(options=df.columns.values[2:],
