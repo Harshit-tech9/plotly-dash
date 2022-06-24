@@ -106,9 +106,6 @@ pyOpenSSL
 pyparsing 
 pyrsistent 
 PySocks 
-pywin32==302
-pywin32-ctypes 
-pywinpty 
 regex 
 requests 
 rope 
@@ -128,8 +125,6 @@ sphinxcontrib-htmlhelp
 sphinxcontrib-jsmath 
 sphinxcontrib-qthelp 
 sphinxcontrib-serializinghtml 
-spyder 
-spyder-kernels 
 stack-data 
 tenacity==8.0.1
 terminado 
