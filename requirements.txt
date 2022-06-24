@@ -109,7 +109,6 @@ pyrsistent
 PySocks 
 python-dateutil 
 python-lsp-black 
-python-lsp-jsonrpc==1.0.0
 pywin32==302
 pywin32-ctypes 
 pywinpty 
