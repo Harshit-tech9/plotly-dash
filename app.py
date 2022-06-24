@@ -54,4 +54,4 @@ def update_graph(column_name):
     return fig, '#' + column_name
 
 if __name__=='__main__' :
-    app.run_server(port=5656)                        
+    app.run_server(debug=True)                        
