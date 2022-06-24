@@ -113,7 +113,6 @@ Rtree
 scipy==1.8.1
 seaborn==0.11.2
 Send2Trash 
-sip==4.19.13
 six 
 snowballstemmer 
 sortedcontainers 
