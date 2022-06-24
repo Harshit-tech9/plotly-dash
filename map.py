@@ -9,6 +9,7 @@ from dash import Dash, dcc, Output, Input
 import dash_bootstrap_components as dbc
 import plotly.express as px
 import pandas as pd
+import os
      
 df = pd.read_csv("D:/Plotly learning/Dash-by-Plotly-master/Dash-by-Plotly-master/Good_to_Know/Dash2.0/social_capital.csv")
 
@@ -54,4 +55,4 @@ def update_graph(column_name):
     return fig, '#' + column_name
 
 if __name__=='__main__' :
-    app.run_server(port=5656)                        
+    app.run(debug=True, port=int(os.environ.get("PORT", 5000)), host='0.0.0.0')                        
